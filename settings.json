@@ -1,0 +1,50 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "workbench.colorTheme": "Monokai",
+  "window.zoomLevel": 0,
+  "workbench.iconTheme": "vs-seti",
+  "extensions.ignoreRecommendations": true,
+  "markdown-preview-enhanced.scrollSync": true,
+  "editor.fontSize": 16,
+  "files.associations": {
+    "*.md": "markdown"
+  },
+  "editor.renderControlCharacters": true,
+  "explorer.confirmDragAndDrop": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "explorer.confirmDelete": false,
+  "breadcrumbs.enabled": true,
+  "git.enableSmartCommit": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Font Awesome version to use.
+  "fontAwesomeAutocomplete.version": "5",
+  // List of glob patterns that determine where Font Awesome 5 Autocomplete will provide suggestions.
+  "fontAwesomeAutocomplete.patterns": ["**/*.html", "**/*.jsx", "**/*.js"],
+  // A word that triggers the auto completion of Font Awesome icons. Last character of the trigger word is also the trigger character for auto completion menu.
+  "fontAwesomeAutocomplete.triggerWord": "fa-",
+  // A list of glob patterns for which the extension should NOT auto-remove the trigger word when a font class name is inserted from the auto completion list.
+  "fontAwesomeAutocomplete.disableTriggerWordAutoClearPatterns": ["**/*.html"],
+  // Background color of a Font Awesome icon preview. Supports any valid CSS color.
+  "fontAwesomeAutocomplete.preview.backgroundColor": "#ffffff",
+  // Foreground color of a Font Awesome icon preview. Supports any valid CSS color.
+  "fontAwesomeAutocomplete.preview.foregroundColor": "#000000",
+  "editor.renderWhitespace": "none",
+  // code runner 
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "explorer.openEditors.visible": 0,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "files.eol": "\n",
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  },
+  "evermonkey.token":"S=s2:U=13440c:E=167abdb3ff6:C=16787ceb838:P=1cd:A=en-devtoken:V=2:H=46c3f6bd9052600766c36a00c241944c",
+  "evermonkey.noteStoreUrl": "https://app.yinxiang.com/shard/s2/notestore",
+  "files.autoSave": "afterDelay",
+  "gitlens.mode.active": "review"
+
+}
