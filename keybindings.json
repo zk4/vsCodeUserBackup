@@ -213,12 +213,12 @@
   { "key": "cmd+f1", "command": "workbench.action.terminal.toggleTerminal" },
   {
     "key": "shift+ctrl+f",
-    "command": "cursorWordEndRightSelect",
+    "command": "cursorRightSelect",
     "when": "textInputFocus"
   },
   {
     "key": "shift+ctrl+b",
-    "command": "cursorWordStartLeftSelect",
+    "command": "cursorLeftSelect",
     "when": "textInputFocus"
   }
   {
