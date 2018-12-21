@@ -184,11 +184,11 @@
     "command": "list.select",
     "when": "explorerViewletVisible && filesExplorerFocus"
   },
-  {
-    "key": "space",
-    "command": "list.select",
-    "when": "explorerViewletVisible && filesExplorerFocus"
-  },
+  // {
+  //   "key": "space",
+  //   "command": "list.select",
+  //   "when": "explorerViewletVisible && filesExplorerFocus"
+  // },
   // open file from File Explorer
   // {
   //   "key": "o",
@@ -220,7 +220,7 @@
     "key": "shift+ctrl+b",
     "command": "cursorLeftSelect",
     "when": "textInputFocus"
-  }
+  },
   {
     "key": "shift+alt+f",
     "command": "cursorWordEndRightSelect",
@@ -244,6 +244,29 @@
     "key": "shift+ctrl+e",
     "command": "cursorEndSelect",
     "when": "textInputFocus"
+  },
+  { "key": "ctrl+v", "command": "scrollPageDown", "when": "textInputFocus" },
+  {
+    "key": "alt+v",
+    "command": "scrollPageUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+; n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+; f",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "cursorUpSelect",
+    "when": "textInputFocus"
   }
-
 ]

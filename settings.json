@@ -32,7 +32,7 @@
   // Foreground color of a Font Awesome icon preview. Supports any valid CSS color.
   "fontAwesomeAutocomplete.preview.foregroundColor": "#000000",
   "editor.renderWhitespace": "none",
-  // code runner 
+  // code runner
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.clearPreviousOutput": true,
   "code-runner.showExecutionMessage": false,
@@ -42,9 +42,15 @@
   "[markdown]": {
     "editor.quickSuggestions": true
   },
-  "evermonkey.token":"S=s2:U=13440c:E=167abdb3ff6:C=16787ceb838:P=1cd:A=en-devtoken:V=2:H=46c3f6bd9052600766c36a00c241944c",
+  "evermonkey.token": "S=s2:U=13440c:E=167abdb3ff6:C=16787ceb838:P=1cd:A=en-devtoken:V=2:H=46c3f6bd9052600766c36a00c241944c",
   "evermonkey.noteStoreUrl": "https://app.yinxiang.com/shard/s2/notestore",
   "files.autoSave": "afterDelay",
-  "gitlens.mode.active": "review"
-
+  "gitlens.mode.active": "review",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "sync.gist": "b6abb6e96ffeda79473850d2d071312a",
+  "[python]": {
+        
+    }
 }
