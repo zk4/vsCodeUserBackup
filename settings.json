@@ -35,15 +35,15 @@
   // code runner
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.clearPreviousOutput": true,
-  "code-runner.showExecutionMessage": false,
+  // "code-runner.showExecutionMessage": false,
   "explorer.openEditors.visible": 0,
   "extensions.showRecommendationsOnlyOnDemand": true,
   "files.eol": "\n",
   "[markdown]": {
     "editor.quickSuggestions": true
   },
-  "evermonkey.token": "S=s2:U=13440c:E=167abdb3ff6:C=16787ceb838:P=1cd:A=en-devtoken:V=2:H=46c3f6bd9052600766c36a00c241944c",
-  "evermonkey.noteStoreUrl": "https://app.yinxiang.com/shard/s2/notestore",
+  // "evermonkey.token": "S=s2:U=13440c:E=167abdb3ff6:C=16787ceb838:P=1cd:A=en-devtoken:V=2:H=46c3f6bd9052600766c36a00c241944c",
+  // "evermonkey.noteStoreUrl": "https://app.yinxiang.com/shard/s2/notestore",
   "files.autoSave": "afterDelay",
   "gitlens.mode.active": "review",
   "editor.formatOnPaste": false,
