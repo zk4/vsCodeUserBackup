@@ -295,5 +295,33 @@
 		"key": "ctrl+shift+p",
 		"command": "cursorUpSelect",
 		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+v",
+		"command": "cursorPageDown",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "pagedown",
+		"command": "-cursorPageDown",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+cmd+v",
+		"command": "cursorPageUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "pageup",
+		"command": "-cursorPageUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "cmd+shift+j",
+		"command": "workbench.action.terminal.focusNext"
+	},
+	{
+		"key": "cmd+shift+k",
+		"command": "workbench.action.terminal.focusPrevious"
 	}
 ]
