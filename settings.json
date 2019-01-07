@@ -4,7 +4,7 @@
   "window.zoomLevel": 0,
   "workbench.iconTheme": "vs-seti",
   "extensions.ignoreRecommendations": true,
-  "markdown-preview-enhanced.scrollSync": true,
+  // "markdown-preview-enhanced.scrollSync": true,
   "editor.fontSize": 16,
   "files.associations": {
     "*.md": "markdown"
@@ -36,6 +36,17 @@
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.clearPreviousOutput": true,
   "code-runner.showExecutionMessage": false,
+  "code-runner.runInTerminal": true,
+  "code-runner.enableAppInsights": false,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "python": "python3",
+    "jxa": "osascript -l JavaScript",
+    "go": "go run",
+
+},
+
+
   "explorer.openEditors.visible": 0,
   "extensions.showRecommendationsOnlyOnDemand": true,
   "files.eol": "\n",
@@ -52,5 +63,6 @@
   "sync.gist": "b6abb6e96ffeda79473850d2d071312a",
   "[python]": {
         
-    }
+    },
+    
 }

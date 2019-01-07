@@ -38,17 +38,17 @@
 		"key": "cmd+shift+e",
 		"command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
 	},
-	{
-		"key": "ctrl+shift+r",
-		"command": "workbench.action.quickOpenNavigatePreviousInRecentFilesPicker",
-		"when": "inQuickOpen && inRecentFilesPicker"
-	},
+	// {
+	// 	"key": "ctrl+shift+r",
+	// 	"command": "workbench.action.quickOpenNavigatePreviousInRecentFilesPicker",
+	// 	"when": "inQuickOpen && inRecentFilesPicker"
+	// },
 
-	{
-		"key": "cmd+e",
-		"command": "workbench.action.quickOpenNavigateNextInEditorPicker",
-		"when": "inEditorsPicker && inQuickOpen"
-	},
+	// {
+	// 	"key": "cmd+e",
+	// 	"command": "workbench.action.quickOpenNavigateNextInEditorPicker",
+	// 	"when": "inEditorsPicker && inQuickOpen"
+	// },
 	{
 		"key": "cmd+shift+e",
 		"command": "workbench.action.quickOpenNavigatePreviousInEditorPicker",
@@ -279,11 +279,11 @@
 		"when": "textInputFocus"
 	},
 	{
-		"key": "ctrl+; n",
+		"key": "cmd+; n",
 		"command": "explorer.newFile"
 	},
 	{
-		"key": "ctrl+; f",
+		"key": "cmd+; f",
 		"command": "explorer.newFolder"
 	},
 	{
@@ -323,5 +323,13 @@
 	{
 		"key": "cmd+shift+k",
 		"command": "workbench.action.terminal.focusPrevious"
+	},
+	{
+		"key": "ctrl+c",
+		"command": "code-runner.stop"
+	},
+	{
+		"key": "ctrl+alt+m",
+		"command": "-code-runner.stop"
 	}
 ]
