@@ -44,11 +44,11 @@
 	// 	"when": "inQuickOpen && inRecentFilesPicker"
 	// },
 
-	// {
-	// 	"key": "cmd+e",
-	// 	"command": "workbench.action.quickOpenNavigateNextInEditorPicker",
-	// 	"when": "inEditorsPicker && inQuickOpen"
-	// },
+	{
+		"key": "cmd+e",
+		"command": "workbench.action.quickOpenNavigateNextInEditorPicker",
+		"when": "inEditorsPicker && inQuickOpen"
+	},
 	{
 		"key": "cmd+shift+e",
 		"command": "workbench.action.quickOpenNavigatePreviousInEditorPicker",
