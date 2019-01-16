@@ -9,10 +9,10 @@
 		"command": "wwm.aligncode",
 		"when": "editorTextFocus && !editorReadonly"
 	},
-	// {
-	//   "key": "cmd+e",
-	//   "command": "workbench.action.openRecent"
-	// },
+	{
+	  "key": "cmd+e",
+	  "command": "workbench.action.openRecent"
+	},
 	// {
 	//   "key": "cmd+e",
 	//   "command": "workbench.action.quickOpenNavigateNextInRecentFilesPicker",
@@ -30,13 +30,32 @@
 	//   "when": "inQuickOpen && inRecentFilesPicker"
 	// },
 
+	// {
+	// 	"key": "cmd+e",
+	// 	"command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+	// },
+	// {
+	// 	"key": "cmd+shift+e",
+	// 	"command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+	// },
 	{
 		"key": "cmd+e",
-		"command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+		"command": "workbench.action.quickOpen"
+	},
+
+	{
+		"key": "cmd+e",
+		"command": "workbench.action.quickOpenNavigateNextInFilePicker",
+		"when": "inFilesPicker && inQuickOpen"
 	},
 	{
 		"key": "cmd+shift+e",
-		"command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "cmd+shift+e",
+		"command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+		"when": "inFilesPicker && inQuickOpen"
 	},
 	// {
 	// 	"key": "ctrl+shift+r",
@@ -44,16 +63,16 @@
 	// 	"when": "inQuickOpen && inRecentFilesPicker"
 	// },
 
-	{
-		"key": "cmd+e",
-		"command": "workbench.action.quickOpenNavigateNextInEditorPicker",
-		"when": "inEditorsPicker && inQuickOpen"
-	},
-	{
-		"key": "cmd+shift+e",
-		"command": "workbench.action.quickOpenNavigatePreviousInEditorPicker",
-		"when": "inEditorsPicker && inQuickOpen"
-	},
+	// {
+	// 	"key": "cmd+e",
+	// 	"command": "workbench.action.quickOpenNavigateNextInEditorPicker",
+	// 	"when": "inEditorsPicker && inQuickOpen"
+	// },
+	// {
+	// 	"key": "cmd+shift+e",
+	// 	"command": "workbench.action.quickOpenNavigatePreviousInEditorPicker",
+	// 	"when": "inEditorsPicker && inQuickOpen"
+	// },
 	{
 		"key": "cmd+r",
 		"command": "editor.action.startFindReplaceAction"
